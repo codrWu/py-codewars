@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-文件描述
+Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence,
+ which is the number of times you must multiply the digits in num until you reach a single digit.
+
+ 一个数字的各位数字的乘积最后为一位数字，返回计算次数
 Created on 2018/7/5
+@url: http://www.codewars.com/kata/persistent-bugger/python
 @author: codrwu
 """
 __author__ = 'codrwu'

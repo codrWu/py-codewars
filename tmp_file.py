@@ -6,16 +6,9 @@ Created on 2018/7/4
 """
 __author__ = 'codrwu'
 
-
-def comp(array1, array2):
-    # your code
-    if array1 == None or array2 == None:
-        return False
-    else:
-        array1_squared = [x*x for x in array1]
-        for x in array2:
-            if x not in array1_squared:
-                return False
-        return True
+from functools import reduce
+def f(x, y):
+    return x*y
+print(reduce(f, [1,23,2]))
 
 #print(likes(['Alex', 'Jacob', 'Mark', 'Max']))

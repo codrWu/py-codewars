@@ -11,4 +11,5 @@ def f(x, y):
     return x*y
 print(reduce(f, [1,23,2]))
 
+print('10003' < '22')
 #print(likes(['Alex', 'Jacob', 'Mark', 'Max']))
